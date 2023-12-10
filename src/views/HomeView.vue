@@ -1,9 +1,3 @@
 <template>
-    <div>
-        home
-    </div>
+    home
 </template>
-<script></script>
-<style lang="scss">
-    
-</style>
