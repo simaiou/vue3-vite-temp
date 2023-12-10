@@ -7,10 +7,14 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import('@/views/HomeView.vue')
   },
   {
-  //路由初始指向
     path: '/todo-list',
     name: 'TodoList',
     component:()=>import('../views/TodoList.vue'),
+  },
+  {
+    path: '/shopping-cart',
+    name: 'ShoppingCart',
+    component:()=>import('../views/ShoppingCart.vue'),
   }
 ]
 

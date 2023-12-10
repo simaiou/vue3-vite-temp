@@ -8,7 +8,6 @@
 import { ref, reactive } from 'vue'
 import InputItem from "@/components/TodoList/InputItem.vue"
 import List from '@/components/TodoList/List.vue'
-
 const todoList = ref([
     {
         id: 1,
